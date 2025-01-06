@@ -5,10 +5,94 @@
     <meta charset="utf-8">
     <title>Emergency and Remote</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border-spacing: 0px;
+            border-collapse: separate;
+        }
+    
+        .table-section {
+            text-align: center;
+        }
+    
+        tr:nth-child(odd) {
+            background: #DDD;
+        }
+    
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #000;
+                color: #FFF;
+            }
+    
+            tr:nth-child(odd) {
+                background: #222;
+            }
+    
+            /* Based on default Mozilla bright colors, and inverted: */
+            a:visited {
+                color: rgb(170, 229, 116);
+            }
+    
+            a:link {
+                color: rgb(255, 255, 17);
+            }
+        }
+    </style>
 </head>
 <body>
-    <ul>
-        <li><a href="android_apps.html">android_apps.html - open</a></li>
-        <li><a href="android_apps.html" download>android_apps.html - download</a></li>
-    </ul>
+    <p>
+        <ul>
+            <li><a href="android_apps.html">android_apps.html - open</a></li>
+            <li><a href="android_apps.html" download>android_apps.html - download</a></li>
+        </ul>
+    </p>
+    <p>
+        Suggest NOT to download the above with Chrome browser, because it downloads the file as an
+        <em>.mhtml</em> file.
+    </p>
+    <p>
+        Install Firefox: <a
+        href="https://play.google.com/store/apps/details?id=org.mozilla.firefox">org.mozilla.firefox</a>.
+    </p>
+    <p>
+        Open this webpage in Firefox.<br/>
+        
+        Save. TODO explain.<br/>
+        
+        By default Firefox on Android saves files to Documents &gt; Download - NOT to the top level
+        "Downloads" folder.
+    </p>
+    <p>
+        Once downloaded, open "MyFiles" app (NOT "Files" app). Locate the file.
+    </p>
+    <p>
+        Once you locate the file (in My "Files" app), touch it and hold. Near the top right &gt;
+        menu button (three vertical dots) &gt; make a shortcut on the Home screen. Locate the
+        shortcut on the last page/screen.
+    </p>
+    <p>
+        Touch the shortcut. "Open with" &gt; choose "HTML Viewer". When you follow "Google Play
+        Store" links for any apps that
+        <!-- As per
+        https://www.reddit.com/r/firefox/comments/v6wd7a/how_do_i_view_html_files_on_my_phone_with_firefox/
+        -->
+    </p>
+    <p>
+        <!--
+        Don't use File Manager Plus
+        (https://play.google.com/store/apps/details?id=com.alphainventor.filemanager) to open local
+        .html files in Firefox. It does NOT open them in Firefox directly. Instead, it runs a web
+        server at port 10054 or so...!
+
+        Near the top right &gt; menu button (three vertical dots) &gt; Settings &gt;
+
+        Documents &gt; Download &gt; locate <em>android_apps.html</em> &gt; touch and hold &gt; near
+        the bottom right &gt; "More" button (with three vertical dots) &gt; "Open with" &gt; choose
+        "Firefox" &gt; bear the bottom right: choose "ALWAYS".
+    -->
+    </p>
 </body>
